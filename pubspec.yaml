@@ -1,0 +1,20 @@
+name: calculator
+description: "A new Flutter project."
+publish_to: 'none'  # This is fine if you don't intend to publish the package
+version: 0.1.0
+
+environment:
+  sdk: ">=3.5.3 <4.0.0"  # It's better to specify an upper bound to avoid future breaking changes
+
+dependencies:
+  flutter:
+    sdk: flutter
+  math_expressions: ^2.0.0  # Good choice for handling advanced math operations
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0  # Linting is always helpful
+
+flutter:
+  uses-material-design: true
